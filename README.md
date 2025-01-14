@@ -26,4 +26,11 @@ cd Codes/22-zone
 cd Codes/90-zone
 ```
 respectively. The introduction on the running order and each file's function is explained in each folder.
+
 Note: There is NO multi-GPU/parallelling training in our codes. 
+
+The required data for ICNN training and optimization settings are saved in ```Results```. Please refer to ```readme.md``` in the ```Results``` fold for more details.
+
+## Citation
+```
+```
