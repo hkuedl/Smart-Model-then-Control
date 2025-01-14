@@ -19,24 +19,11 @@ pip install requirements.txt
 All the data for experiments can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1wB3OkMHw7XF4DA5wYUdxXeCu_GbcM-Cv?usp=sharing).
 
 ### Reproduction
-To reproduce the experiments of the proposed methods and comparisons ('Lat_MB', 'Lat_MF', 'Ori_MB', and 'Ori_MF'), please run
+To reproduce the experiments of the proposed methods and comparisons for single-zone, 22-zone, and 90-zone buildings, please go to folders
 ```
-cd Codes/
-python Lat_MB.py
-python Lat_MF.py
-python Ori_MB.py
-python Ori_MF.py
+cd Codes/Single-zone
+cd Codes/22-zone
+cd Codes/90-zone
 ```
-To reproduce the experiments of generating latent and original models, please run
-```
-cd Codes/
-python Lat_model.py
-python Ori_model.py
-```
-To reproduce the experiments of ground-truth results, please run
-```
-cd Codes/
-python Ground_truth.py
-```
+respectively. The introduction on the running order and each file's function is explained in each folder.
 Note: There is NO multi-GPU/parallelling training in our codes. 
-
