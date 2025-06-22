@@ -33,11 +33,12 @@ The required models as the warm start of SMC are saved in ```#Results```.
 
 ## Citation
 ```
-@article{cui2025smart,
-  title={A “Smart Model-then-Control” Strategy for the Scheduling of Thermostatically Controlled Load},
+@ARTICLE{10891668,
   author={Cui, Xueyuan and Liu, Boyuan and Li, Yehui and Wang, Yi},
-  journal={IEEE Transactions on Smart Grid},
+  journal={IEEE Transactions on Smart Grid}, 
+  title={A “Smart Model-Then-Control” Strategy for the Scheduling of Thermostatically Controlled Loads}, 
   year={2025},
-  publisher={IEEE}
-}
+  volume={16},
+  number={3},
+  pages={2246-2260}}
 ```
